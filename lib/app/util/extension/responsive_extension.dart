@@ -2,10 +2,10 @@ import 'package:get/get.dart';
 
 extension ResponsiExtension on num {
   double width() {
-    return Get.height * (this / 844);
+    return this+1;
   }
 
   double height() {
-    return Get.width * (this / 390);
+    return this+1;
   }
 }
